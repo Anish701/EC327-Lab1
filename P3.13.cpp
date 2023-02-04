@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+#include <cstdlib>
 using namespace std;
 
 int main()
@@ -11,7 +12,7 @@ int main()
     if (pInt > 3999 || pInt < 0)
     {
         cout << "The positive integer must be between 0 and 3,999" << endl;
-        abort();
+        exit(0);
     }
 
     string result;
